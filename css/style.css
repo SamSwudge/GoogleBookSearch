@@ -1,0 +1,52 @@
+/*
+    Style.css
+*/
+
+html {
+    background-color : #232323;
+    color : white;
+    font-family: sans-serif;
+}
+
+a {
+    color : white;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+/*
+    Content
+*/
+
+#header, #searched, #creator {
+    text-align: center;
+}
+
+#book-search {
+    margin: auto;
+    width: 50%;
+}
+
+#book-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-style: none;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.res-container {
+    width : 700px;
+    padding: 10px;
+    margin : auto;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#authors {
+    display: block;
+    float: right;
+}
+
